@@ -1,0 +1,53 @@
+.cabeza{
+	text-align:center;
+	font-size: 50px;
+	color:#000000;
+	background-color:transparent;
+}
+.men{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.botm{
+    color:white;
+	background-color: #000;
+	opacity: 0.8;
+	margin: 20px;
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 10px 10px;
+	font-size: 28px;
+	border-radius: 133px 133px 133px 133px;
+   -moz-border-radius: 133px 133px 133px 133px;
+   -webkit-border-radius: 133px 133px 133px 133px;
+   border: 5px solid #CBCBCB;
+}
+.botm a{
+	z-index: 1;
+	color: #fff !important;
+}
+.botm:hover{
+	text-decoration:none;
+	background-color: #000;
+}
+.margen{
+	margin-left: 50px;
+}
+body{
+	background-image:url(../images/fondo3.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+/*left:10%; top:30%
+left:10%; top:40%
+left:10%; top:50%
+left:35%; top:30%
+left:35%; top:40%
+left:35%; top:50%
+left:70%; top:30%
+left:70%; top:40%
+left:70%; top:50%*/
